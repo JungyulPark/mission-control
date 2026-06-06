@@ -9,7 +9,7 @@
 ## 트랙 1 — 수익화 (광고형 웹앱 후보) ★현금 엔진
 이 트랙이 회사의 핵심. "데일리 재방문 + 광고 슬롯 + 어필리에이트" 템플릿으로 통일.
 
-> ⏳ **진행중(6/6): kfortunes 레포에 2제품 혼재 발견 → 분리중.** ①사주/운세(kfortunes) ②K-star 궁합매칭(kstarmatch). 방식2(새 레포로 분가)로 분리 작업은 kfortunes 세션에서 진행. **아래 AdSense 진단은 매칭(kstarmatch)측 기준.** 단 "무한 콘텐츠=AdSense 자산"은 사주(kfortunes) 쪽이라, 분리 후 콘텐츠 라이브러리 작업 무게는 사주로 이동 가능성. 분리 끝나면 STATE에 2행으로 정식 분리 기록.
+> ⚠️ **정정(6/6): '2제품 혼재' 전제 틀림 → split 취소.** 조사결과 현 레포(이름=kfortunes)는 **kstarmatch 단일 제품**. 사주운세(kfortunes)는 피벗커밋 46acf98에서 삭제돼 **git 히스토리 48edd60에만** 잠듦(블로그6·element·daily·compatibility·faq·백엔드/firebase 포함). 나눌 게 없음. 레포 이름↔내용 불일치는 코스메틱이라 방치 권장(Cloudflare Pages가 JungyulPark/kfortunes에 연결돼 rename=배포만 깸). **미결정(제품 베팅): AdSense 현금자산을 ⓐkstarmatch(바이럴, thin-content와 구조적으로 싸움)로 갈지 ⓑ사주(콘텐츠 엔진, 히스토리서 정적페이지만 부활)로 갈지.** 백엔드/firebase/lemonsqueezy(결제) 부활은 결제제약 위반=제외.
 
 | repo | 상태 | 비고 / 다음 액션 |
 |---|---|---|
