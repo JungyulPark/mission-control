@@ -9,7 +9,7 @@
 ## 트랙 1 — 수익화 (광고형 웹앱 후보) ★현금 엔진
 이 트랙이 회사의 핵심. "데일리 재방문 + 광고 슬롯 + 어필리에이트" 템플릿으로 통일.
 
-> ⚠️ **정정(6/6): '2제품 혼재' 전제 틀림 → split 취소.** 조사결과 현 레포(이름=kfortunes)는 **kstarmatch 단일 제품**. 사주운세(kfortunes)는 피벗커밋 46acf98에서 삭제돼 **git 히스토리 48edd60에만** 잠듦(블로그6·element·daily·compatibility·faq·백엔드/firebase 포함). 나눌 게 없음. 레포 이름↔내용 불일치는 코스메틱이라 방치 권장(Cloudflare Pages가 JungyulPark/kfortunes에 연결돼 rename=배포만 깸). **미결정(제품 베팅): AdSense 현금자산을 ⓐkstarmatch(바이럴, thin-content와 구조적으로 싸움)로 갈지 ⓑ사주(콘텐츠 엔진, 히스토리서 정적페이지만 부활)로 갈지.** 백엔드/firebase/lemonsqueezy(결제) 부활은 결제제약 위반=제외.
+> ⚠️ **정정(6/6): '2제품 혼재' 전제 틀림 → split 취소.** 조사결과 현 레포(이름=kfortunes)는 **kstarmatch 단일 제품**. 사주운세(kfortunes)는 피벗커밋 46acf98에서 삭제돼 **git 히스토리 48edd60에만** 잠듦(블로그6·element·daily·compatibility·faq·백엔드/firebase 포함). 나눌 게 없음. 레포 이름↔내용 불일치는 코스메틱이라 방치 권장(Cloudflare Pages가 JungyulPark/kfortunes에 연결돼 rename=배포만 깸). **결정(6/6, 제품 베팅): AdSense 현금자산 = ⓑ사주 정적 부활(신규 레포·정적사이트, 백엔드/firebase/결제 제외).** kstarmatch는 라이브 그대로 유지(AdSense는 보류). 사주 콘텐츠=무한생산→Phase1 "복제 가능한 AdSense 템플릿 1개" 후보. **다음 액션: 히스토리 48edd60에서 사주 정적 콘텐츠 복구·검증** — 블로그/element/daily가 진짜 정적 prose인지(백엔드 의존 아닌지) view-source 기준 확인. 그래야 "정적 부활"이 싼지 판가름.
 
 | repo | 상태 | 비고 / 다음 액션 |
 |---|---|---|
@@ -64,5 +64,5 @@
 
 ## 지금 시점 우선순위 요약 (관제탑 판단)
 1. **시한 임박**: TGFbeta (삼성 6/19) — 연구지만 데드라인이 최우선.
-2. **현금 검증**: kfortunes(KStar Match) AdSense 재신청 — **진단완료**. thin content가 반려 결정타. **다음 한 가지=영문 정적 콘텐츠 라이브러리(글 8+) + About/Contact + 면책보강을 한 방에** → 3가지 반려사유 동시 제거, 재신청 1회로 끝낸다.
+2. **현금 검증**: AdSense 자산을 **사주 정적 부활**로 결정(kstarmatch는 thin-content 본질이라 보류). **다음 한 가지=히스토리 48edd60의 사주 정적 콘텐츠 복구·검증**(정적 prose인지 확인) → 그 위에 신규 정적 사이트 + AdSense.
 3. **콘텐츠 재개**: 닥터인사이트 n8n 안정화 → 유튜브 재시작 (channels.md 참고).
