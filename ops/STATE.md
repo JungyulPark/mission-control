@@ -14,6 +14,7 @@
 > ✅ **48edd60 진단완료(6/6): 자산 풍부**(~115 정적페이지+결정론 엔진+정적해설DB, AdSense 최소선 초과). 부활=집필 아닌 **배선**. 빨간불=result.html(382단어 GPT동적).
 > 🔒 **결정 확정(6/6)**: ①정적먼저(백엔드/firebase/GPT/결제 제거) ②결제 영구제외 ③GPT실시간→풍부한 정적콘텐츠 대체 ④듀얼언어 프론트도어, AdSense는 주력1개 언어 먼저 ⑤도메인 kfortunes.com 유지 ⑥P0=바로 새로설계(자산 토대로). 상세=`ops/kfortunes-revival.md`.
 > 🛰️ **운영모드: 코드작업은 각 레포 세션(kfortunes/kstarmatch)에서 분산. mission-control=총괄 컨트롤·기억만.**
+> 🎨 **디자인: supanova 스킬은 플러그인 아닌 SKILL.md 묶음(한국어 랜딩+Tailwind/Pretendard, frontmatter 정상). kfortunes 레포 `.claude/skills/`에 설치하면 Skill 호출 가능 → result.html은 `supanova-redesign-engine`. 설치법+디자인 기준=`ops/kfortunes-design.md`.**
 > ⚠️ **정정(6/6): '2제품 혼재' 전제 틀림 → split 취소.** 조사결과 현 레포(이름=kfortunes)는 **kstarmatch 단일 제품**. 사주운세(kfortunes)는 피벗커밋 46acf98에서 삭제돼 **git 히스토리 48edd60에만** 잠듦(블로그6·element·daily·compatibility·faq·백엔드/firebase 포함). 나눌 게 없음. 레포 이름↔내용 불일치는 코스메틱이라 방치 권장(Cloudflare Pages가 JungyulPark/kfortunes에 연결돼 rename=배포만 깸). **결정(6/6, 제품 베팅): AdSense 현금자산 = ⓑ사주 정적 부활(신규 레포·정적사이트, 백엔드/firebase/결제 제외).** kstarmatch는 라이브 그대로 유지(AdSense는 보류). 사주 콘텐츠=무한생산→Phase1 "복제 가능한 AdSense 템플릿 1개" 후보. **다음 액션: 히스토리 48edd60에서 사주 정적 콘텐츠 복구·검증** — 블로그/element/daily가 진짜 정적 prose인지(백엔드 의존 아닌지) view-source 기준 확인. 그래야 "정적 부활"이 싼지 판가름.
 
 | repo | 상태 | 비고 / 다음 액션 |

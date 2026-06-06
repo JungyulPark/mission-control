@@ -108,3 +108,29 @@
 ## 우선순위
 **P0: result.html → 롱폼 정적 리포트 재설계(섹션 1·2·3 먼저).**
 그다음 공유카드 → 에버그린 허브 → 영문 확장. 결제·실시간 GPT는 부활시키지 않는다.
+
+---
+
+## 8. supanova 디자인 스킬 설치 (kfortunes 세션에서 실행)
+`uxjoseph/supanova-design-skill` = 플러그인 아님. **SKILL.md 묶음**(한국어 랜딩 최적화,
+Tailwind CDN + Pretendard + Solar 아이콘). 정상 frontmatter 확인됨 → `.claude/skills/`에
+넣으면 Skill 도구로 호출 가능. **kfortunes 레포 루트에서:**
+
+```bash
+git clone --depth 1 https://github.com/uxjoseph/supanova-design-skill /tmp/supanova
+mkdir -p .claude/skills
+for d in taste-skill redesign-skill output-skill soft-skill; do
+  cp -r "/tmp/supanova/$d" ".claude/skills/$d"
+done
+git add .claude/skills && git commit -m "skills: add supanova design skills"
+```
+
+설치 후 세션 새로고침 → Skill 목록에 `supanova-redesign-engine`,
+`supanova-design-engine` 등 노출.
+- **result.html 재설계** → `supanova-redesign-engine` (스캔→진단→수정→우선순위 4단계).
+- **새 페이지(랜딩/에버그린)** → `supanova-design-engine`.
+- 출력 잘림 방지 `output`, 미감 기준 `soft` 보조.
+
+⚠️ 주의: 이 스킬의 스택은 **Tailwind CDN + standalone HTML**. 우리 "정적 먼저" 원칙과
+부합(백엔드 0). 단 스킬은 *랜딩페이지/전환* 최적화라 사주 **결과 롱폼**엔 §3-(B) 구조를
+입히는 토대로 쓰고, 카피·정보밀도는 본 브리프 기준을 우선한다.
