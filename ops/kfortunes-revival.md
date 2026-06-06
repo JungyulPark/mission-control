@@ -41,10 +41,13 @@
 - sitemap.xml / robots.txt / ads.txt / HTTPS / 모바일 네비
 
 ## 4. 단계 (한 번에 하나, 게이트 통과해야 다음)
-- **P0 (지금)**: kfortunes 레포 = 히스토리 48edd60 사주 복원. 살아있는 정적 prose 인벤토리(검증 프롬프트 기제공).
-- **P1 (AdSense 게이트)**: 에버그린 20편 + 정책 + 오늘의운세 1종 → **AdSense 재신청**. 도메인 + Cloudflare Pages 신규 프로젝트.
-- **P2 (바이럴)**: 공유형 결과카드 1개(일간 캐릭터) + 카톡 공유 + OG. 바이럴 계수 측정.
-- **P3 (스케일)**: 일주 60 확장 + 롱테일 프로그래매틱 — **단 품질 게이트로 자동생성 금지선 준수.** 어필리에이트(책/굿즈) 부착.
+> ✅ **48edd60 진단 완료(6/6): 자산이 예상보다 훨씬 알참.** ~115개 정적 페이지(saju×51·stars×50·element×5·blog×5·about/faq/정책) + 결정론적 엔진(saju.js·saju-advanced.js, AI 불필요) + 정적 해설 DB(day-master-details.js). **AdSense 최소선(15~25편)을 이미 초과.** → 부활 = "맨땅 집필"이 아니라 **"백엔드 잘라내고 기존 정적 데이터로 배선"**. 유일한 빨간불 = result.html(382단어, GPT 동적 = kstarmatch 반려 재현점).
+
+- **P0 ✅ 완료**: 48edd60 진단. 자산 풍부 확인.
+- **P0.5 (지금, 복원)**: kstarmatch 안전 분리됨 → 현 kfortunes 레포를 48edd60 사주로 복원.
+- **P1 (AdSense 게이트, 배선 위주)**: ①result.html 정적화(GPT 제거→DayMasterDetails+SajuAdvanced 본문 렌더) ②compat/daily 정적화 ③firebase auth import·로그인 UI 제거(~12p) ④functions/firebase/lemonsqueezy/gpt-fortune 삭제 ⑤Cloudflare Pages 신규 + 도메인 → **AdSense 재신청**. (집필 보강은 통과 후, 양산 함정 회피)
+- **P2 (바이럴)**: 공유형 결과카드(일간 캐릭터) + 카톡 공유 + OG. 색인은 정적이 전담.
+- **P3 (스케일)**: 롱테일 확장 + 어필리에이트 — 품질 게이트로 자동생성 금지선 준수. 듀얼언어(i18n 5개국어 이미 존재)는 주력 통과 후 확장.
 
 ## 5. 리스크 (냉정)
 - **자동생성 함정**: 일주 60 템플릿 양산 = AdSense 재반려. 각 글 사람급 품질 게이트 필수.
