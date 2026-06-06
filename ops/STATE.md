@@ -9,6 +9,8 @@
 ## 트랙 1 — 수익화 (광고형 웹앱 후보) ★현금 엔진
 이 트랙이 회사의 핵심. "데일리 재방문 + 광고 슬롯 + 어필리에이트" 템플릿으로 통일.
 
+> ✅ **분가 완료(6/6): kstarmatch → 별도 레포로 분리**(브랜치 claude/bold-rubin-VmcdW, 커밋 e8530b3). kfortunes 레포는 이제 사주운세 부활 전용으로 비워짐(48edd60 복원 예정). kstarmatch는 라이브 유지(AdSense 보류).
+> 📋 **사주 부활 마스터플랜 = `ops/kfortunes-revival.md`** (AdSense+바이럴+유입, 리서치 기반).
 > ⚠️ **정정(6/6): '2제품 혼재' 전제 틀림 → split 취소.** 조사결과 현 레포(이름=kfortunes)는 **kstarmatch 단일 제품**. 사주운세(kfortunes)는 피벗커밋 46acf98에서 삭제돼 **git 히스토리 48edd60에만** 잠듦(블로그6·element·daily·compatibility·faq·백엔드/firebase 포함). 나눌 게 없음. 레포 이름↔내용 불일치는 코스메틱이라 방치 권장(Cloudflare Pages가 JungyulPark/kfortunes에 연결돼 rename=배포만 깸). **결정(6/6, 제품 베팅): AdSense 현금자산 = ⓑ사주 정적 부활(신규 레포·정적사이트, 백엔드/firebase/결제 제외).** kstarmatch는 라이브 그대로 유지(AdSense는 보류). 사주 콘텐츠=무한생산→Phase1 "복제 가능한 AdSense 템플릿 1개" 후보. **다음 액션: 히스토리 48edd60에서 사주 정적 콘텐츠 복구·검증** — 블로그/element/daily가 진짜 정적 prose인지(백엔드 의존 아닌지) view-source 기준 확인. 그래야 "정적 부활"이 싼지 판가름.
 
 | repo | 상태 | 비고 / 다음 액션 |
