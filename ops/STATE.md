@@ -11,11 +11,14 @@
 
 > ✅ **분가 완료(6/6): kstarmatch → 별도 레포로 분리**(브랜치 claude/bold-rubin-VmcdW, 커밋 e8530b3). kfortunes 레포는 이제 사주운세 부활 전용으로 비워짐(48edd60 복원 예정). kstarmatch는 라이브 유지(AdSense 보류).
 > 📋 **사주 부활 마스터플랜 = `ops/kfortunes-revival.md`** (AdSense+바이럴+유입, 리서치 기반).
-> ✅ **48edd60 진단완료(6/6): 자산 풍부**(~115 정적페이지+결정론 엔진+정적해설DB, AdSense 최소선 초과). 부활=집필 아닌 **배선**. 빨간불=result.html(382단어 GPT동적).
+> ⛔ **(7/29 워크플로 검증으로 정정) 48edd60 "자산 풍부·최소선 초과" 판단은 틀렸다.** ~115p의 실체는 saju×51+stars×50 동일템플릿 반복 → 2026 scaled content abuse 기준에서 **심사 자산이 아니라 부채**(심사=사이트 전체 평균 품질). 부활=배선이 아니라 **부채 noindex 격리+집필**. 정본=`ops/kfortunes-masterplan.md`.
+> ✅ **호재**: Google 정책상 운세/사주는 금지·제한 카테고리 **아님**. 품질평가 가이드라인은 astrology를 **비YMYL**로 명시 → 자격증 불필요, 반려원인은 100% 콘텐츠 품질. 단 질병·투자 **단정형 예측**은 정책 위반이므로 오락 면책 **필수**.
 > 🔒 **결정 확정(6/6)**: ①정적먼저(백엔드/firebase/GPT/결제 제거) ②결제 영구제외 ③GPT실시간→풍부한 정적콘텐츠 대체 ④듀얼언어 프론트도어, AdSense는 주력1개 언어 먼저 ⑤도메인 kfortunes.com 유지 ⑥P0=바로 새로설계(자산 토대로). 상세=`ops/kfortunes-revival.md`.
 > 🛰️ **운영모드: 코드작업은 각 레포 세션(kfortunes/kstarmatch)에서 분산. mission-control=총괄 컨트롤·기억만.**
 > 🎨 **디자인 표준지령(상시): 모든 레포 디자인은 supanova 스킬로(`uxjoseph/supanova-design-skill` → `.claude/skills/` 설치). 개선=`supanova-redesign-engine`, 신규=`supanova-design-engine`. 레포별 기준 덮어쓰기. 전문=`ops/design-directive.md`. kfortunes 상세=`ops/kfortunes-design.md`(result.html은 redesign 엔진).**
-> 🔁 **추진 루프(게이트형): M0 검증(사용자)→M1 result 롱폼정적화→M1.5 정적페이지→M2 AdSense 재신청→M3 바이럴+에버그린. 한 번에 하나, 게이트마다 사용자 확인. 전문=`ops/loop-plan.md`. ⏸ 현재 M0 대기(사용자 프로젝트 검증 중).**
+> 🔁 **추진 루프(게이트형)** — `ops/loop-plan.md` M0~M3 초안은 워크플로 검증으로 **재배치됨**. 정본 순서 = `ops/kfortunes-masterplan.md` §5: **M0.5'(무노출 정보수집) → M-1'(법무게이트) → M0'(문서정정) → M1'(아키텍처동결) → M1.5'(엔진검증) → M2'(집필) → M3'(배선) → M4'(신청) → M5'(승인후)**. 순서 핵심: **되돌릴 수 없는 행동(기관 노출)은 되돌릴 수 있는 정보수집 뒤에.**
+> ⏸ **현재 M0.5' 대기(사용자, 2~3시간, 리스크 0)**: ①AdSense 대시보드 3종(계정상태/사이트목록/결제정보) ②Cloudflare Pages↔레포↔도메인 매핑 ③kfortunes.com DNS 생존 ④48edd60 115p 단어수 실측(git show, 복원 불필요) ⑤소속 국립대/사립대.
+> 🔴 **미해결 치명 결함 11종(C1~C11)** = masterplan §2. 최상위: `/result` 논리모순(→`/r/{key}` 150p 사전생성), **만세력 엔진 정확도 미검증**(한국표준시 1954~61 UTC+8:30·서머타임 → 일간 자체가 틀릴 수 있음), AdSense **계정 상태** 미조사, Cloudflare 복원 시 **kstarmatch.com 사망**.
 > ⚠️ **정정(6/6): '2제품 혼재' 전제 틀림 → split 취소.** 조사결과 현 레포(이름=kfortunes)는 **kstarmatch 단일 제품**. 사주운세(kfortunes)는 피벗커밋 46acf98에서 삭제돼 **git 히스토리 48edd60에만** 잠듦(블로그6·element·daily·compatibility·faq·백엔드/firebase 포함). 나눌 게 없음. 레포 이름↔내용 불일치는 코스메틱이라 방치 권장(Cloudflare Pages가 JungyulPark/kfortunes에 연결돼 rename=배포만 깸). **결정(6/6, 제품 베팅): AdSense 현금자산 = ⓑ사주 정적 부활(신규 레포·정적사이트, 백엔드/firebase/결제 제외).** kstarmatch는 라이브 그대로 유지(AdSense는 보류). 사주 콘텐츠=무한생산→Phase1 "복제 가능한 AdSense 템플릿 1개" 후보. **다음 액션: 히스토리 48edd60에서 사주 정적 콘텐츠 복구·검증** — 블로그/element/daily가 진짜 정적 prose인지(백엔드 의존 아닌지) view-source 기준 확인. 그래야 "정적 부활"이 싼지 판가름.
 
 | repo | 상태 | 비고 / 다음 액션 |

@@ -41,9 +41,13 @@
 - sitemap.xml / robots.txt / ads.txt / HTTPS / 모바일 네비
 
 ## 4. 단계 (한 번에 하나, 게이트 통과해야 다음)
-> ✅ **48edd60 진단 완료(6/6): 자산이 예상보다 훨씬 알참.** ~115개 정적 페이지(saju×51·stars×50·element×5·blog×5·about/faq/정책) + 결정론적 엔진(saju.js·saju-advanced.js, AI 불필요) + 정적 해설 DB(day-master-details.js). **AdSense 최소선(15~25편)을 이미 초과.** → 부활 = "맨땅 집필"이 아니라 **"백엔드 잘라내고 기존 정적 데이터로 배선"**. 유일한 빨간불 = result.html(382단어, GPT 동적 = kstarmatch 반려 재현점).
+> ⛔ **아래 진단(6/6)은 워크플로 검증(7/29)으로 일부 폐기됨. `ops/kfortunes-masterplan.md` §1이 정본.**
+> 48edd60 자산: ~115개 정적 페이지(saju×51·stars×50·element×5·blog×5·about/faq/정책) + 결정론적 엔진(saju.js·saju-advanced.js, AI 불필요) + 정적 해설 DB(day-master-details.js).
+> ~~AdSense 최소선(15~25편)을 이미 초과~~ → **틀림.** saju×51+stars×50은 동일 템플릿 반복이라
+> 2026 scaled content abuse 기준에서 **심사 자산이 아니라 심사 부채**(심사는 사이트 전체 평균 품질로 채점).
+> → 부활 = "배선"이 아니라 **"부채 페이지 noindex 격리 + 집필"**. 빨간불은 result.html만이 아니다.
 
-- **P0 ✅ 완료**: 48edd60 진단. 자산 풍부 확인.
+- **P0 ✅ 완료**: 48edd60 진단. (단 "자산 풍부" 결론은 위 배너대로 정정됨)
 - **P0.5 (지금, 복원)**: kstarmatch 안전 분리됨 → 현 kfortunes 레포를 48edd60 사주로 복원.
 - **P1 (AdSense 게이트, 배선 위주)**: ①result.html 정적화(GPT 제거→DayMasterDetails+SajuAdvanced 본문 렌더) ②compat/daily 정적화 ③firebase auth import·로그인 UI 제거(~12p) ④functions/firebase/lemonsqueezy/gpt-fortune 삭제 ⑤Cloudflare Pages 신규 + 도메인 → **AdSense 재신청**. (집필 보강은 통과 후, 양산 함정 회피)
 - **P2 (바이럴)**: 공유형 결과카드(일간 캐릭터) + 카톡 공유 + OG. 색인은 정적이 전담.
